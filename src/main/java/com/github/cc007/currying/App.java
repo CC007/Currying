@@ -59,7 +59,7 @@ public class App {
         yetAnotherCurriedFunc.accept(420);
 
         // in the same way that you can specify multiple parameters in Apply.apply(...)
-        val result11 =Apply.apply(map::put, "test", 42);
+        val result11 = Apply.apply(map::put, "test", 42);
         // you can also specify multiple parameters in Accept.accept(...)
         Accept.accept(consumer, 1, 2);
         // or in Curry.curry(...)
